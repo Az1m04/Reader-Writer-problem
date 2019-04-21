@@ -14,7 +14,7 @@ void intialize()
     readcount=0;
 }
 
-void * reader (void * param)
+void * reader (void * p)
 {
     int wt=3;
     printf("\nReader is trying to enter");
