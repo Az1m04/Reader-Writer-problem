@@ -16,8 +16,7 @@ void intialize()
 
 void * reader (void * param)
 {
-    int wt;
-  ;
+    int wt=3;
     printf("\nReader is trying to enter");
     pthread_mutex_lock(&x);
     readcount++;
